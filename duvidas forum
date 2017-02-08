@@ -1,0 +1,28 @@
+Mto obrigado pela resposta(é muito bom ver outras formas de fazer a mesma coisa ou seja que espande e mto o nosso raciocinio..etc, no mesmo seguimento surgiu-me um dúvida (no exercício a seguir):
+
+da-me segmentation fault! (imagem)
+neste programa, [CODE = cpp]
+#include "stdio.h"
+#include "ctype.h"
+char *init_str(char *s)
+{
+
+printf ("Frase Original: \" %s \"",s);
+s[0] = '\0';
+printf( " A frase final:\" %s \"\n",s);
+return s;
+}
+
+int main()
+{
+init_str("Ontem fui comprar um electrodoméstico");
+return 0;
+}
+
+[/CODE]
+
+   pego numa string de C (logo char * como parâmetro) e retorno outra string em C logo o mesmo char * , só que esta é uma string vazia??.
+
+[img]http://i.imgur.com/Nc9IgY6.png[/img]  é mais ou menos isto que está na solução,
+
+p.s(ainda não cheguei à parte do malloc)
