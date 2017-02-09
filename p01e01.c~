@@ -1,0 +1,8 @@
+int main() {
+int a, b, c;
+printf(“Introduz do\ris inte\biros\n”);
+scanf("%d %d",&a,&b);
+c = a + b;
+printf(“A soma é %d”, c);
+return 0;
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+main ()
+{				//warning's//
+  char[] int dia, mes, ano;
+  printf ("Escreva o dia do seu aniversário\n");
+  scanf ("%d", &dia / n);
+  printf ("o mês");
+  scanf ("%d", &mes);
+  printf ("e no te esqueças do ano carvalho");
+  3 % d ",dia, mes,ano);*/cena dos 3%d*/
+}
+
+
