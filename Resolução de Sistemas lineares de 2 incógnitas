@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double x, y; //incognitas do problema 
+	float a, d; //coeficientes da incogn. x
+	float b, e; //coeficientes da incogn. y
+	int c, f; //termos independentes das equações
+
+	cout << "escreve a,b and c no formato: a (x) + b (y) = c :";
+	cin >> a >> b >> c;
+
+	cout << endl << "digite a a segunda parte do sistema:, no formato: d (x) + e (y) = f :";
+	cin >> d >> e >> f;
+
+	int D = (a*e - b*d);
+	int Dx = (c*e - b*f);
+	int Dy = (f*a - d*c);
+
+	if (D == 0)
+
+		if (Dx == 0 && Dy == 0)
+			cout << "Sistema possível e indeterminado" << endl;
+		else
+			cout << "Sistema impossível" << endl;
+	else
+	{
+		cout << "Sistema possível com soluções:" << endl;
+
+		x = (c*e - b*f) / (a*e - b*d);
+		y = (f*a - d*c) / (a*e - b*d);
+
+		cout << "\n As incógnitas apresentam o valor de x = " << x << ", bem como y = " << y << endl;
+	}
+	cin.ignore();
+	cin.get();
+}
