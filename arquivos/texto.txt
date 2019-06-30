@@ -1,0 +1,1 @@
+A função retorna o número de unidades efetivamente lidas. Este número pode ser menor que count quando o fim do arquivo for encontrado ou ocorrer algum erro. Quando o arquivo for aberto para dados binários, fread pode ler qualquer tipo de dados.
